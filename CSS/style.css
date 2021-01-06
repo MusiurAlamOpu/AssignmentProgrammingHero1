@@ -1,0 +1,108 @@
+*{
+    height: auto;
+}
+body{
+    margin: 0px;
+}
+
+.highlight{
+    color: #FF8367;
+    font-weight: 100px;
+}
+.section1H1{
+    color: rgb(49, 52, 78);
+    font-family: 'Roboto Condensed';
+    font-size: 60px;
+    margin-left: 20%;
+}
+p{
+    font-family: 'Roboto Condensed';
+    font-weight: 100px;
+    text-align: justify;
+    color: rgb(49, 52, 78);
+    padding-bottom: 20px;
+    margin-left: 20%;
+    font-size: 30px;
+}
+.linkButton{
+    text-decoration:none;
+    background-image:linear-gradient(to left, tomato, orange);
+    color: white;
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius:5px;
+    cursor:pointer;
+    font-family: 'Roboto Condensed';
+    box-shadow: 3px 3px 4px grey;
+    margin-left: 20%;
+}
+.section1Divleft{
+    float: left;
+    width: 50%;
+    margin-top: 5%;
+}
+.section1DivRight{
+    float: right;
+    width: 50%;
+    
+}
+.section1DivRight img{
+    width: 60%;
+    padding-left: 20%;
+}
+.section2DivLeft{
+    float: left;
+    width: 45%;
+}
+.section2DivLeft img{
+    width: 80%;
+    padding-left: 20%;
+}
+.section2DivRight{
+    float: left;
+    width: 50%;
+    margin-right: 20px;
+}
+.section3H1{
+    color: rgb(49, 52, 78);
+    font-family: 'Roboto Condensed';
+    font-size: 50px;
+    text-align: center;
+}
+
+.section3Div{
+    float: left;
+    width: 25%;
+    height: 400px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 3px 3px 10px rgb(114, 114, 114);
+    border-radius: 10px;
+    background-color: white;
+    
+}
+.section3Div img{
+    width: 100%;
+    
+}
+.section3SuperDiv{
+    padding-left: 8%;
+    width: 100%;
+}
+h2{
+    font-family: 'Roboto Condensed';
+    margin-left: 10%;
+    
+
+}
+#section1{
+    padding-bottom: 500px;
+}
+#section2{
+    padding-bottom: 700px;
+}
+#section3{
+    padding-top: 20px;
+    background-color:#f6fafd;
+    height: 700px;
+}
