@@ -1,40 +1,45 @@
-*{
-    height: auto;
-}
 body{
     margin: 0px;
 }
 
 .highlight{
     color: #FF8367;
-    font-weight: 100px;
+    
 }
 .section1H1{
     color: rgb(49, 52, 78);
-    font-family: 'Roboto Condensed';
+    font-family: 'Bebas Neue', cursive;
     font-size: 60px;
     margin-left: 20%;
 }
 p{
-    font-family: 'Roboto Condensed';
-    font-weight: 100px;
-    text-align: justify;
+    font-family: 'Robota Condensed', sans-serif;
     color: rgb(49, 52, 78);
     padding-bottom: 20px;
+    font-size: 20px;
     margin-left: 20%;
-    font-size: 30px;
 }
 .linkButton{
     text-decoration:none;
     background-image:linear-gradient(to left, tomato, orange);
     color: white;
     padding: 10px 30px;
-    font-weight: bold;
+    
     border-radius:5px;
     cursor:pointer;
-    font-family: 'Roboto Condensed';
+    font-family: 'Bebas Neue', cursive;
     box-shadow: 3px 3px 4px grey;
     margin-left: 20%;
+}
+
+.chatButton{
+    text-decoration:none;
+    background-image:linear-gradient(to left, tomato, orange);
+    color: white;
+    padding: 10px 30px;
+    border-radius:5px;
+    cursor:pointer;
+    font-family: 'Bebas Neue', cursive;    
 }
 .section1Divleft{
     float: left;
@@ -47,9 +52,13 @@ p{
     
 }
 .section1DivRight img{
-    width: 60%;
+    width: 50%;
     padding-left: 20%;
+    margin-top: 30px;
 }
+
+
+
 .section2DivLeft{
     float: left;
     width: 45%;
@@ -63,9 +72,12 @@ p{
     width: 50%;
     margin-right: 20px;
 }
+
+
+
 .section3H1{
     color: rgb(49, 52, 78);
-    font-family: 'Roboto Condensed';
+    font-family: 'Bebas Neue', cursive;
     font-size: 50px;
     text-align: center;
 }
@@ -90,7 +102,7 @@ p{
     width: 100%;
 }
 h2{
-    font-family: 'Roboto Condensed';
+    font-family: 'Bebas Neue', cursive;
     margin-left: 10%;
     
 
@@ -105,4 +117,23 @@ h2{
     padding-top: 20px;
     background-color:#f6fafd;
     height: 700px;
+    
+}
+
+#section4H1{
+    font-size: 50px;
+    font-family: 'Bebas Neue';
+    color: white;
+}
+.icons{
+    width: 48px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.bar{
+    border-radius: 5px;
+    background-image: linear-gradient(to left, rgb(120, 36, 255), rgb(99, 0, 156));
+    color: White;
+    width: 70%;
+    text-align: center;
 }
